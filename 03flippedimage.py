@@ -1,7 +1,5 @@
-# import required image module
 from PIL import Image
 
-# Open an already existing image
 imageObject = Image.open("input-images/spiderman.jpg")
 
 # Do a flip of left and right

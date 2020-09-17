@@ -8,6 +8,7 @@ OriImage.show()
 #Applying BoxBlur filter
 boxImage = OriImage.filter(ImageFilter.BoxBlur(7))
 boxImage.show()
+OriImage.filter(ImageFilter.EMBOSS).show()
 
 #Save Boxblur image
 boxImage.save('out-images/blurredcat.jpg')

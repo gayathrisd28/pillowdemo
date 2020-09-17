@@ -1,10 +1,6 @@
-#Import required Image library
 from PIL import Image
 
-#Create an Image Object from an Image
 im = Image.open("input-images/clownfish.jpg")
-
-#Display actual image
 im.show()
 
 #Make the new image half the width and half the height of the original image
